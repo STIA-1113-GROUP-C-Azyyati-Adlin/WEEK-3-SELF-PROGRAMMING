@@ -1,0 +1,31 @@
+package selfProgramming;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        final double total_marks, quiz, lab_test, assignment, project;
+        char grade;
+        
+        quiz = 6.8;
+        lab_test = 0.7;
+        assignment = 0.8;
+        project = 0.9;
+        grade = 'C';
+        
+        total_marks = (quiz*0.15 + lab_test*0.2 + assignment*0.35 + project*0.3);
+        
+        System.out.println("=======================");
+        System.out.println("  Student Information  ");
+        System.out.println("=======================");
+        System.out.println("Student Name = Azyyati Adlin");
+        System.out.println("Quiz = " + quiz);
+        System.out.println("Lab Test = " + lab_test);
+        System.out.println("Assignment = " + assignment);
+        System.out.println("Project = " + project);
+        System.out.println("Total Mark = " + total_marks);
+        System.out.println("Grade = " + grade);
+        System.out.println("Status = moderate ");
+	}
+
+}
