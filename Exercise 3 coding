@@ -1,0 +1,24 @@
+package numericalData;
+
+import java.util.Scanner;
+
+public class Exercise3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan= new Scanner (System.in);
+		   int length;
+		   int width;
+		   int perimeter;
+		   
+		   System.out.println ("Insert the length : "); 
+		   length = scan.nextInt();
+		   
+		   System.out.println ("Insert the width : ");
+		   width= scan.nextInt();
+		   
+		   perimeter=2*(length+width);
+		   System.out.println ("perimeter : " + perimeter);
+	}
+
+}
